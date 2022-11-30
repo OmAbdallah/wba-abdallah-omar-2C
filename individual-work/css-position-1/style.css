@@ -32,6 +32,9 @@ body {
 }
 .headline-1
 {
+  padding: 100px;
+  align-items: center;
+  font-size: x-large;
   display:flex;
   justify-content: center;
   width: 100%;
