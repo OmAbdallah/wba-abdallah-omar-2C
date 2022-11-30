@@ -1,51 +1,43 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.main{
+  display:flex
+  
+}
 
 .header{
   display: flex;
   
   position:fixed;
   background-color: white;
-  width: 10000px;
+  width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .header-logo{
   display: flex;
-  margin-left: 200px;
+  margin-left: 50px;
   height: 100px;
+  justify-self: flex-start;
 }
 .navbar {
   display:flex;
-  margin-left: 1000px;
-  gap: 100px;
+  margin-right: 100px;
+  gap: 50px ;
   font-size: large;
+  justify-self: flex-end;
   align-items: center;
-  
-  
 }
 .headline-1
 {
-  flex-direction: row;
-  flex-wrap: wrap;
-  display: flex;
- margin-top: 100px;
-  width: max-content;
-  
-  position: absolute;
-  font-size: x-large;
-  width: 1900px;
-  justify-content: center;
-}
-.hero section{
   display:flex;
-  flex-wrap: wrap;
-  position: absolute;
   justify-content: center;
-  margin-top:  1000px;
-  background-color: orange;
+  width: 100%;
+  
 }
+
 
 
 
