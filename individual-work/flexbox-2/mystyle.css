@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item{
+    width: 400px;
+    height: 200px;
+    
+    
+    position: relative;
+    top: 200px;
+    background-color: lightblue;
+
+}
+.container .item:nth-child(3)
+{
+background: lightgreen;
+}
+.text{
+    padding: 25px;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: flex-start;
+    line-height: 25px;
+}
