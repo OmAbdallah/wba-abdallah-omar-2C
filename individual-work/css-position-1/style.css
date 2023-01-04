@@ -1,0 +1,51 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main{
+  display:flex
+  
+}
+
+.header{
+  display: flex;
+  
+  position:fixed;
+  background-color: white;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.header-logo{
+  display: flex;
+  margin-left: 50px;
+  height: 100px;
+  justify-self: flex-start;
+}
+.navbar {
+  display:flex;
+  margin-right: 100px;
+  gap: 50px ;
+  font-size: large;
+  justify-self: flex-end;
+  align-items: center;
+}
+.headline-1
+{
+  padding: 100px;
+  align-items: center;
+  font-size: x-large;
+  display:flex;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+
+
+
+/* Barvy
+Světlá barva pozadí: #f2b880
+Tmavší barvy pozadí za obrázkem: #e88121
+Barva text v oranžovém pozadí: #752400
+*/
