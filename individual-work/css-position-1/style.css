@@ -1,7 +1,6 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 .header{
   display: flex;
   z-index: 3;
@@ -58,7 +57,6 @@ body {
 .text{
   width: 100%;
   flex-wrap: wrap;
-
 }
 .text-wrapper{
   margin-top: 5rem;
@@ -76,13 +74,10 @@ body {
   height: 100%;
   width: 100%;
 }
-
 .top-link{
   position: fixed;
   bottom: 20px;
   right: 20px;
-
-
 }
 .top-link img{
   height: 20px;
