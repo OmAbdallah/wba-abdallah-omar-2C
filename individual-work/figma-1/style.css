@@ -10,7 +10,7 @@ body{
     width: 100%;
     height: 153px;
     background-color: #CBC1B1;
-    position:fixed;
+    position:relative;
     justify-content: space-between;
     align-items: center;
     z-index: 1;
@@ -89,7 +89,7 @@ body{
     background-size: cover;
     background-image: url("hero-image.png");
     width: 100%;
-    height: 919px;
+    min-height: 100vh;
     background-repeat: no-repeat;
 }
 .section1{
@@ -160,7 +160,6 @@ h2{
     width: 70%;
     justify-content: center;
     height: 100%;
-
 }
 .madeira{
     background-image: url("madeira.png");
@@ -186,6 +185,9 @@ h2{
 .text{
     width: 80%;
 }
+.text-container{
+    cursor: pointer;
+}
 h3{
     font-size: 20px;
     letter-spacing: 0.1em;
@@ -209,4 +211,102 @@ h3{
     align-items: center;
     justify-content: center;
     height: 100%;
+}
+.mini-section{
+    display: none;
+}
+@media only screen and (max-width: 390px){
+    .navbar{
+        height: 80px;
+    }
+    .logo{
+    background-size: cover;
+    width: 80px;
+    height:80px;
+    margin-left: 10px;
+    }
+    .menu{
+        background-image: url("burger-menu.png");
+        background-size: cover;
+        height: 30px;
+        width: 30px;
+        margin-left: 80px;
+    }
+    .text-container{
+        display: none;
+    }
+    .hero-img{
+        display: none;
+    }
+    .mini-section{
+        color:white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        background-color: #7C7474;
+        margin-top: 25px;
+    }
+    .button{
+        background-color: #a09595;
+        color:black;
+        border-color: black;
+        font-size: 12px;
+        margin-bottom: 10px;
+        width: 120px;
+        height: 30px;
+    }
+    .image-container{
+        flex-direction: column;
+    }
+    .info{
+        flex-direction: row;
+        gap: 25px;
+    }
+    .image{
+        height: 110px;
+        background-size: cover;
+        filter: drop-shadow(0px 4px 4px rgba( 0, 0, 0, 0.25));
+    }
+    h3{
+        font-size: 12px;
+        text-align: left;
+    }
+    .text{
+        font-size: 10px;
+        text-align: left;
+        line-height: 12px;
+    }
+    h2{
+        font-size: 11px;
+        align-self: center;
+        margin-top: 40px;
+    }
+    .h2-wrapper{
+        flex-direction: column;
+        display: flex;
+
+        height: 90px;
+
+    }
+    .section2
+    {
+        gap: 0;
+    }
+    .button2-container{
+        margin-top: 40px;
+    }
+    .button2{
+        width: 150px;
+        height: 40px;
+    }
+    .footer{
+        margin-top: 100px;
+    }
+    .mini-section-header{
+        font-size: 24px;
+    }
+    .content{
+        font-size: 13px;
+    }
 }
